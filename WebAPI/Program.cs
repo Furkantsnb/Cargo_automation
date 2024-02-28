@@ -77,7 +77,7 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors(builder => builder.WithOrigins("https://localhost:7174").AllowAnyHeader());
+            app.UseCors(builder => builder.WithOrigins("https://localhost:7222").AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseAuthentication(); // Kimlik doðrulama middleware'i ekleniyor.
             app.UseAuthorization();

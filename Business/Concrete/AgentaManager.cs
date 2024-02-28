@@ -13,6 +13,7 @@ using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.Dtos.Agentas;
+using log4net.Core;
 
 namespace Business.Concrete
 {

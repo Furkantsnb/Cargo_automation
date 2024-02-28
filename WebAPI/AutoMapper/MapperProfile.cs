@@ -21,7 +21,7 @@ namespace WebAPI.AutoMapper
             CreateMap<OperationClaim, CreateOperationClaimDto>().ReverseMap();
             CreateMap<OperationClaim, UpdateOperationClaimDto>().ReverseMap();
 
-            CreateMap<UserOperationClaim, UpdateUserOperationClaimDto>().ReverseMap();
+            CreateMap<UserOperationClaim, CreateUserOperationClaimDto>().ReverseMap();
             CreateMap<UserOperationClaim, UpdateUserOperationClaimDto>().ReverseMap();
 
 

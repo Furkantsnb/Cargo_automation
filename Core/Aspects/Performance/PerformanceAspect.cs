@@ -51,7 +51,7 @@ namespace Core.Aspects.Performance
                email= "furkantsnb72@hotmail.com",
                subject=subject,
                body=body,
-
+               //smtp-mail.outlook.com
                 
             };
 

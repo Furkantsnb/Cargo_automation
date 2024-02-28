@@ -130,9 +130,9 @@ namespace Business.Concrete
             string subject = "Kullanıcı Kayıt Onay Maili";
             string body = " kullanıcınız sisteme kayıt oldu. Kaydınızı tamamlamak için aşağıdaki linke tıklamanız gerekmektedir.";
 
-            string link = "https://localhost:7174/api/Auth/confirmuser?value=" + user.MailConfirmValue;
+            string link = "https://localhost:7222/api/Auth/confirmuser?value=" + user.MailConfirmValue;
             string linkDescription = "Kaydı Onaylamak İçin Tıkla";
-            var mailTemplate = _mailTemplateService.GetByTemplateName("kayıt", 1);
+            var mailTemplate = _mailTemplateService.GetByTemplateName("kayıt", 2);
             string templateBody = mailTemplate.Data.Value;
             templateBody = templateBody.Replace("{{title}}", subject);
             templateBody = templateBody.Replace("{{message}}", body);
