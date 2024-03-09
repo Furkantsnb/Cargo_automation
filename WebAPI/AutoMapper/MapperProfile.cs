@@ -14,7 +14,6 @@ namespace WebAPI.AutoMapper
     {
         public MapperProfile()
         {
-            
 
             CreateMap<MailParameter, UpdateMailParameterDto>().ReverseMap();
 

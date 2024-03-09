@@ -10,7 +10,7 @@ namespace DataAccsess.Concrete.EntityFramework.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // PostgreSQL bağlantı dizesini kullanarak yapılandırma
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=DbKargo;UserName=postgres;Password=1234");
+            optionsBuilder.UseNpgsql("Host=;Port=;Database=;UserName=;Password=");
         }
 
        

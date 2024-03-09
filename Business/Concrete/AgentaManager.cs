@@ -24,7 +24,7 @@ namespace Business.Concrete
         private readonly IMapper _mapper;
         private readonly IStationDal _stationDal;
 
-        //commit
+
 
         public AgentaManager(IAgentaDal agentaDal, ITransferCenterDal transferCenterDal, IMapper mapper, IStationDal stationDal)
         {

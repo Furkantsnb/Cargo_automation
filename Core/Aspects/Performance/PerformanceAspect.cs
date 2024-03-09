@@ -43,12 +43,12 @@ namespace Core.Aspects.Performance
          
             SendMailDto sendMailDto = new SendMailDto()
             {
-               Email = "furkantsnb72@hotmail.com",
-               Password="Furkan.t0772",
+               Email = "email",
+               Password="şifre",
                Port=587,
                SMTP= "smtp-mail.outlook.com",
                SSL=true,
-               email= "furkantsnb72@hotmail.com",
+               email= "email@hotmail.com",
                subject=subject,
                body=body,
                //smtp-mail.outlook.com
